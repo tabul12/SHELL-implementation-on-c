@@ -15,7 +15,7 @@
 void cd(char* directory,char* cur_wor_dir)
 {
     if(chdir((const char*)directory)!=0)
-        printf("%s\n","error ocured during chdir");
+        printf("%s\n","error occurred during chdir");
     else
     {
     	strcat(cur_wor_dir,"/");
